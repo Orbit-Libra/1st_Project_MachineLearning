@@ -60,7 +60,7 @@
     "threshold": 1.5
   },
   "SCALER_CONFIG": {
-    "enabled": true,
+    "enabled": false,
     "type": "StandardScaler",
     "params": {
       "with_mean": true,
@@ -68,7 +68,7 @@
     }
   },
   "CLUSTER_CONFIG": {
-    "enabled": true,
+    "enabled": false,
     "type": "KMeans",
     "params": {
       "KMeans": {
@@ -87,7 +87,7 @@
   },
   "PARAMS": {
       "full": {
-        "n_estimators": 229,
+        "n_estimators": 500,
         "max_depth": 18,
         "min_samples_split": 17,
         "min_samples_leaf": 2,
